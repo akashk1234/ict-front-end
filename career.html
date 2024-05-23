@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Axtra HTML5 Template">
+
+  <title>ICT Global Tech</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/progressbar.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+
+<body>
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loading">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+      <div class="bar bar7"></div>
+      <div class="bar bar8"></div>
+    </div>
+  </div>
+
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Cursor</h2>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">mode</h2>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="light">light</button>
+          <button data-mode="dark">dark</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Language Support</h2>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+
+
+  <!-- Scroll Smoother -->
+  <div class="has-smooth" id="has_smooth"></div>
+
+
+  <!-- Go Top Button -->
+  <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+   <!-- Header area start -->
+   <header class="header__area">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html">
+          <img class="logo-primary" src="assets/imgs/logo/site-logo-white2.png" alt="Site Logo" width="60">
+          <img class="logo-secondary" src="assets/imgs/logo/logo-white.png" alt="Moibile Logo" width="100">
+        </a>
+      </div>
+      <div class="header__nav-icon">
+        <button id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png" alt="Menubar Icon"></button>
+      </div>
+      <div class="header__support">
+        <p>Consult with us <a href="tel:+9587325902">+91-9446615211</a></p>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+
+
+
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__body">
+      <div class="offcanvas__left">
+        <div class="offcanvas__logo">
+          <a href="index.html"><img src="assets/imgs/logo/logo-white.png" alt="Offcanvas Logo" width="150"></a>
+        </div>
+        <div class="offcanvas__social">
+          <h3 class="social-title">Follow Us</h3>
+          <ul>
+            <li><a href="https://www.instagram.com/ictglobaltech/"><i class="fa-brands fa-2x my-1 fa-square-instagram"></i> </a></li>
+            <li><a href="https://www.facebook.com/ictglobaltech"><i class="fa-brands fa-2x my-1 fa-square-facebook"></i> </a></li>
+            <li><a href="https://twitter.com/IctGlobalTech"><i class="fa-brands fa-2x my-1 fa-square-x-twitter"></i> </a></li>
+            <li><a href="https://www.youtube.com/channel/UCiUaOoGsUbek9J3DdKkddbw/videos"><i class="fa-brands fa-2x my-1 fa-square-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/ictglobaltech/"><i class="fa-brands fa-2x my-1 fa-linkedin"></i> </a></li>
+          </ul>
+        </div>
+        <div class="offcanvas__links">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="blog.html">blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="offcanvas__mid">
+        <div class="offcanvas__menu-wrapper">
+          <nav class="offcanvas__menu">
+            <div class="text-end p-3">
+              <a href="login.html" class="btn btn-outline-primary">Login</a>
+            </div>
+            <ul class="menu-anim">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">about</a></li>
+              <li>
+                <a href="service.html">Service</a>
+                <ul>
+                  <li><a href="s-google-ad.html">Google Ads </a></li>
+                  <li><a href="s-google360.html">Google 360 </a></li>
+                  <li><a href="s-digital-marketing-course.html">Digital Marketing Course </a></li>
+                  <li><a href="s-digital-marketing-platform.html">Digital Marketing Platform </a></li>
+                  <li><a href="s-social-media-promotion.html">Social Media Promotion </a></li>
+                  <li><a href="s-web-and-mobile.html">Website & Mobile App Development</a></li>
+                  <li><a href="s-seo.html">SEO </a></li>
+                  <li><a href="s-graphic-design.html">Graphic Designing </a></li>
+                  <li><a href="s-email-sms.html">Email & SMS Marketing</a></li>
+                  <li><a href="s-business-consultation.html">Business Consultation & Operations Planning </a></li>
+                  <li><a href="s-ecommerce.html">E Commerce Process </a></li>
+                  <li><a href="s-bpo-service.html">BPO Service </a></li>
+                  <li><a href="s-feedback-collector.html">Feedback Collector</a></li>
+                  <li><a href="s-invoice-tool.html">Invoice Tool</a></li>
+                  <li><a href="">Attendance & Payroll Tool</a></li>
+                  <li><a href="">Employee Performance Management Tool</a></li>
+                  <li><a href="">Lead Campaign Telecaller</a></li>
+                  <li><a href="">Lead Management Tool</a></li>
+                  <li><a href="s-hr-and-performance.html">HR & Performance Management Service </a></li>
+                </ul>
+              </li>
+              <li>
+                <a>Our Works</a>
+                <ul>
+                  <li><a href="work-web.html">Website Development</a></li>
+                  <li><a href="work-design.html">Graphics Designing </a></li>
+                  <li><a href="work-video.html">Video Editing </a></li>
+                  <li><a href="work-logo.html">Logo Making </a></li>
+                  <li><a href="work-new-client.html">New Client On Board </a></li>
+                </ul>
+              </li>
+              <li><a href="coming-soon.html">Blog</a></li>
+              <li><a href="ict-information.html">ICT Information</a></li>
+              <li><a href="career.html">Career</a></li>
+              
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="offcanvas__right">
+        <div class="offcanvas__search">
+          <form action="#">
+            <input type="text" name="search" placeholder="Search keyword">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+        <div class="offcanvas__contact">
+          <h3>Get in touch</h3>
+          <ul>
+            <li><a href="tel:+91 9446615211">+91-9446615211</a></li>
+            <li><a href="mailto:info@ictglobaltech.com">info@ictglobaltech.com</a></li>
+            <li>Heavenly Plaza, KS8, 8th floor,
+              Civil Line Rd, Vazhakkala, Kochi, Kerala 682030</li>
+          </ul>
+        </div>
+        <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1">
+        <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2">
+      </div>
+      <div class="offcanvas__close">
+        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanvas area end -->
+
+
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
+
+
+        <!-- Career hero area start -->
+        <section class="career__top">
+          <div class="career__top-title">
+            <div class="container pt-120">
+              <div class="row pb-120">
+                <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-9">
+                  <div class="sec-title-wrapper">
+                    <h2 class="sec-title-2 animation__char_come">Join our team & let's create success together</h2>
+                  </div>
+                </div>
+                <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-3">
+                  <div class="btn_wrapper">
+                    <a href="#job_list" class="wc-btn-secondary btn-hover btn-item"><span></span> Explore job
+                      <br>vacancies <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="career__thumb">
+            <div class="container g-0">
+              <div class="row inherit">
+                <div class="col-xxl-12">
+                  <div class="career__top-img">
+                   
+                      <img src="assets/imgs/career/career.jpg" style="max-width: 100%;">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Career hero area end -->
+
+
+        <!-- Career gallery start -->
+        <section class="career__gallery">
+          <div class="container g-0 line pt-140 pb-140">
+            <span class="line-3"></span>
+            <div class="row">
+              <div class="col-xxl-12">
+                <ul>
+                  <li>Careers with</li>
+                  <li>ICT Global Tech</li>
+                </ul>
+                <p>Our approach to employee development is rooted in the understanding that individuals are 
+                  unique, with diverse aspirations and career trajectories. Therefore, we tailor our support 
+                  to cater to the specific needs and ambitions of each team member. By doing so, we not only 
+                  foster a sense of belonging and individualized growth but also cultivate a collaborative 
+                  environment where collective success is driven by the success of each individual.</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                <div class="career__gallery-img">
+                  <img src="assets/imgs/career/2.jpg" alt="Image">
+                </div>
+              </div>
+              <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+                <div class="career__gallery-img img-anim">
+                  <img src="assets/imgs/career/3.jpg" alt="Image" data-speed="auto">
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                <div class="career__gallery-img">
+                  <img src="assets/imgs/career/4.jpg" alt="Image">
+                  <img src="assets/imgs/career/5.jpg" alt="Image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Career gallery end -->
+
+
+        <!-- Career area start -->
+        <section class="job__area pt-130 pb-150" id="job_list">
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-12">
+                <div class="sec-title-wrapper">
+                  <h2 class="sec-title title-anim">We’re Currently <br>hiring</h2>
+                </div>
+              </div>
+              <div class="col-xxl-12">
+                <div class="job__list">
+                  <a href="job-details.html">
+                    <div class="job__item">
+                      <p class="job__no">01</p>
+                      <h3 class="job__title">Full Stack Developer</h3>
+                      <h4 class="job__open">(02 Open Roles)</h4>
+                      <div class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></div>
+                    </div>
+                  </a>
+                  <a href="job-details.html">
+                    <div class="job__item">
+                      <p class="job__no">02</p>
+                      <h3 class="job__title">Senior Graphic Designer</h3>
+                      <h4 class="job__open">(01 Open Roles)</h4>
+                      <div class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></div>
+                    </div>
+                  </a>
+                  <a href="job-details.html">
+                    <div class="job__item">
+                      <p class="job__no">03</p>
+                      <h3 class="job__title">Frontend Developer</h3>
+                      <h4 class="job__open">(1 Open Roles)</h4>
+                      <div class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></div>
+                    </div>
+                  </a>
+                  <a href="job-details.html">
+                    <div class="job__item">
+                      <p class="job__no">04</p>
+                      <h3 class="job__title">Business Development Executive</h3>
+                      <h4 class="job__open">(02 Open Roles)</h4>
+                      <div class="job__link"><span><i class="fa-solid fa-arrow-right"></i></span></div>
+                    </div>
+                  </a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Career area end -->
+
+
+        <!-- Career benifit area start -->
+        <section class="career__benefits">
+          <div class="container line g-0 pt-140 pb-150">
+            <span class="line-3"></span>
+
+            <div class="row">
+              <div class="col-xxl-7 col-xl-7 col-lg-7">
+                <ul class="career__benefits-list">
+                  <li>Vacation & Paid <br>Time Off</li>
+                  <li>Work-life <br> Integration</li>
+                  <li>Innovative  <br>Technology</li>
+                  <li>Personal <br> Career Growth</li>
+                  <li>Learning & <br>Development</li>
+                  <li>Add on Appraisals <br> based on performance</li>
+                </ul>
+              </div>
+              <div class="col-xxl-5 col-xl-5 col-lg-5">
+                <div class="sec-title-wrapper">
+                  <h2 class="sec-title title-anim">Join Our Team Now</h2>
+                  <p>We want you to love working here as much as we do. To inspire our team to be creative, productive,
+                    and most importantly - feel valued as employees, we offer endless perks and de-stressors. How fun it
+                    is to unwind while at work!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Career benifit area end -->
+
+
+      </main>
+
+
+      <!-- Footer area start -->
+      <footer class="footer__area">
+        <div class="footer__top">
+          <div class="container footer-line"></div>
+          <img src="assets/imgs/thumb/footer.jpg" alt="Footer Image" data-speed="0.75">
+        </div>
+
+        <div class="footer__btm">
+          <div class="container">
+            <div class="row footer__row">
+              <div class="col-xxl-12">
+                <div class="footer__inner">
+                  <div class="footer__widget">
+                    <img class="footer__logo" src="assets/imgs/logo/footer-logo-white.png" alt="Footer Logo">
+                    <p>We only advertise,promote and brand services or products which are genuine as per our knowledge.</p>
+                    <ul class="footer__social">
+                      <li><a href="https://www.facebook.com/ictglobaltech"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                      <li><a href="https://twitter.com/IctGlobalTech"><span><i class="fa-brands fa-x-twitter"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/ictglobaltech/"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                      <li><a href="https://www.linkedin.com/company/ictglobaltech/"><span><i class="fa-brands fa-linkedin-in"></i></span></a></li>
+                      <li><a href="https://www.youtube.com/channel/UCiUaOoGsUbek9J3DdKkddbw/videos"><span><i class="fa-brands fa-youtube"></i></span></a></li><hr>
+                    </ul>
+                    <p><a href="mailto:info@ictglobaltech.com" class="text-white"><i class="fa fa-envelope "></i> info@ictglobaltech.com</a> </p>
+                    <p><a href="mailto:business@ictglobaltech.com" class="text-white"><i class="fa fa-envelope "></i> business@ictglobaltech.com</a> </p><hr>
+                  </div>
+
+                  <div class="footer__widget-2">
+                    <h2 class="footer__widget-title">Information</h2>
+                    <ul class="footer__link">
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="service.html">Services</a></li>
+                      <li><a href="career.html">Career</a></li>
+                      <li><a href="coming-soon.html">blog</a></li>
+                      <li><a href="contact.html">contact</a></li>
+                    </ul>
+
+                    <a href="profile.html" class="btn btn-outline-primary rounded-pill my-3"> Profile </a>
+                  </div>
+
+                  <div class="footer__widget-3">
+                    <h2 class="footer__widget-title">Contact Us</h2>
+                    <ul class="footer__contact">
+                      <li class="footer_h">Head Office</li>
+                      <li class="footer_p">117/2 B, Ambattur OT, Chennai 600053</li>
+                      <hr>
+                      <li class="footer_h">Regional Office</li>
+                      <li class="footer_p">Heavenly Plaza, KS8, 8th floor,
+                        Civil Line Rd, Vazhakkala, Kochi, Kerala 682030</li>
+                        <hr>
+                      <li class="footer_h">UAE</li>
+                      <li class="footer_p">Next to Icelnad Waterpark, Al jazeera al Hamra -
+                        Ras al khaimah - UAE</li>
+                        <hr>
+                        <li class="footer_h">Singapore</li>
+                        <li class="footer_p">1 Raffles place, Tower 2, #20-00 |Singapore, 048616</li>
+                    </ul>
+                  </div>
+
+                  <div class="footer__widget-4">
+                    <h2 class="project-title">Have a project in your mind?</h2>
+                    <div class="btn_wrapper">
+                      <a href="contact.html" class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
+                          class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <h3 class="contact-time">09 : 30 AM - 06 : 30 PM (IST)</h3>
+                    <h4 class="contact-day">Monday - Saturday</h4>
+                  </div>
+
+                  <div class="footer__copyright">
+                    <p>© 2024 | Alrights reserved by <a href="https://ictglobaltech.com/"
+                        target="_blank">ICT Global Tech</a>
+                    </p>
+                  </div>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer area end -->
+
+
+    </div>
+  </div>
+
+
+
+  <!-- All JS files -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/SplitText.min.js"></script>
+  <script src="assets/js/chroma.min.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/vanilla-tilt.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
